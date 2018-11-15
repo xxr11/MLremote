@@ -2,7 +2,7 @@ from sklearn import neighbors
 from sklearn import datasets
 
 knn = neighbors.KNeighborsClassifier()
-# 花的萼长，宽，花瓣的长，宽
+# 花的萼长和宽，花瓣的长和宽
 # 字典
 iris = datasets.load_iris()
 
